@@ -1,4 +1,4 @@
-const WS_URL = (process.env.NEXT_PUBLIC_WS_URL ?? "http://localhost:8000")
+const WS_URL = (process.env.NEXT_PUBLIC_WS_URL ?? "https://mechanicsbackend.onrender.com")
   // Browsers require ws:// or wss:// schemes for WebSocket — never http(s).
   .replace(/^http/, "ws")
   .replace(
