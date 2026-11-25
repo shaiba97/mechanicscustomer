@@ -4,7 +4,7 @@ export type Bilingual = { ar: string; en: string };
 
 export const DICTIONARY: Record<string, Bilingual> = {
   // Common
-  appName: { ar: "ميكانيك", en: "Mechanic" },
+  appName: { ar: "أفيرو", en: "Avero" },
   save: { ar: "حفظ", en: "Save" },
   cancel: { ar: "إلغاء", en: "Cancel" },
   delete: { ar: "حذف", en: "Delete" },
@@ -212,7 +212,7 @@ export const DICTIONARY: Record<string, Bilingual> = {
     ar: "أسعار ومخزون محدّثان مباشرة من المتاجر المتصلة.",
     en: "Prices and stock updated directly from connected stores.",
   },
-  howEyebrow: { ar: "كيف تعمل ميكانيك", en: "How Mechanic works" },
+    howEyebrow: { ar: "كيف تعمل أفيرو", en: "How Avero works" },
   howTitle: { ar: "من البحث إلى التركيب، بثلاث خطوات.", en: "From search to fitment, in three steps." },
   howStep1Title: { ar: "عرّف سيارتك", en: "Identify your car" },
   howStep1Desc: { ar: "أدخل رقم الهيكل أو اختر الماركة والموديل والسنة.", en: "Enter your VIN or choose make, model, and year." },
@@ -220,7 +220,7 @@ export const DICTIONARY: Record<string, Bilingual> = {
   howStep2Desc: { ar: "راجع التوافق والسعر والحالة والمخزون في مكان واحد.", en: "Review fitment, price, condition, and stock in one place." },
   howStep3Title: { ar: "اطلب بثقة", en: "Order with confidence" },
   howStep3Desc: { ar: "ادفع بأمان وتابع طلبك حتى التسليم.", en: "Pay securely and track the order through delivery." },
-  assuranceEyebrow: { ar: "وعد ميكانيك", en: "The Mechanic promise" },
+    assuranceEyebrow: { ar: "وعد أفيرو", en: "The Avero promise" },
   assuranceTitle: { ar: "وضوح في كل خطوة.", en: "Clarity at every step." },
   assuranceDesc: {
     ar: "لا نعرض قطعة لا نستطيع شرح توافقها. كل بطاقة تخبرك بالحالة، المصدر، والمخزون قبل أن تدفع.",
@@ -284,7 +284,7 @@ export const DICTIONARY: Record<string, Bilingual> = {
   returnsValue: { ar: "خلال ٧ أيام للقطع غير المستخدمة (لا توجد توصيل مجاني)", en: "7 days for unused parts (no free delivery)" },
   seller: { ar: "البائع", en: "Seller" },
   verifiedSeller: { ar: "متجر موثق", en: "Verified store" },
-  sellerNote: { ar: "مخزون محدّث من شبكة ميكانيك", en: "Stock synced from the Mechanic network" },
+    sellerNote: { ar: "مخزون محدّث من شبكة أفيرو", en: "Stock synced from the Avero network" },
   compatibilityTitle: { ar: "التوافق والتركيب", en: "Fitment and installation" },
   compatibilityDesc: {
     ar: "راجع أرقام الهيكل المرتبطة بهذه القطعة. إذا لم تجد سيارتك، استخدم أداة البحث بالسيارة.",
@@ -368,7 +368,7 @@ export const DICTIONARY: Record<string, Bilingual> = {
 
   // Profile / auth
   profileEyebrow: { ar: "مساحتك", en: "Your space" },
-  profileHeading: { ar: "حسابك في ميكانيك.", en: "Your Mechanic account." },
+    profileHeading: { ar: "حسابك في أفيرو.", en: "Your Avero account." },
   profileIntro: { ar: "بياناتك، مركباتك، وطلباتك في مكان واحد.", en: "Your details, cars, and orders in one place." },
   accountDetails: { ar: "بيانات الحساب", en: "Account details" },
   storeDetails: { ar: "بيانات المتجر", en: "Store details" },
@@ -378,7 +378,7 @@ export const DICTIONARY: Record<string, Bilingual> = {
   savedParts: { ar: "قطع محفوظة", en: "Saved parts" },
   quickLinks: { ar: "روابط سريعة", en: "Quick links" },
   signInProfile: { ar: "سجّل الدخول لعرض حسابك.", en: "Sign in to view your account." },
-  authPanelEyebrow: { ar: "ميكانيك", en: "Mechanic" },
+    authPanelEyebrow: { ar: "أفيرو", en: "Avero" },
   authPanelTitle: { ar: "طريقك الأقصر إلى القطعة الصحيحة.", en: "The shortest route to the right part." },
   authPanelDesc: { ar: "حساب واحد لسياراتك، مفضلتك، وطلباتك في جميع أنحاء المملكة.", en: "One account for your cars, saved parts, and orders across Saudi Arabia." },
   emailPlaceholder: { ar: "name@example.com", en: "name@example.com" },
@@ -392,7 +392,7 @@ export const DICTIONARY: Record<string, Bilingual> = {
   crNumberLabel: { ar: "رقم السجل التجاري", en: "CR number" },
   storeFieldsHint: { ar: "إذا كنت تفتح حساب متجر، أدخل بيانات السجل التجاري.", en: "If you are opening a store account, add the commercial registration details." },
   backHome: { ar: "العودة إلى الرئيسية", en: "Back to home" },
-  newHere: { ar: "جديد في ميكانيك؟", en: "New to Mechanic?" },
+    newHere: { ar: "جديد في أفيرو؟", en: "New to Avero?" },
   createOne: { ar: "أنشئ حساباً", en: "Create one" },
 
   // Footer

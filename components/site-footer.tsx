@@ -54,13 +54,13 @@ export function SiteFooter() {
               locale === "ar" && "font-arabic tracking-normal",
             )}
           >
-            {locale === "ar" ? "ميكانيك" : "MECHANIC"}
+            {locale === "ar" ? "أفيرو" : "AVERO"}
           </p>
         </div>
 
         <div className="mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 text-[11px] text-white/45 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} {locale === "ar" ? "ميكانيك" : "Mechanic"}.{" "}
+            © {new Date().getFullYear()} {locale === "ar" ? "أفيرو" : "Avero"}.{" "}
             {t("footerRights")}.
           </p>
           <p className="font-mono tracking-wide">{t("paymentMethods")}</p>

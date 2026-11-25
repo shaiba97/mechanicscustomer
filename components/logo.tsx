@@ -16,7 +16,7 @@ export function Logo({ className, compact = false, inverted = false }: LogoProps
   return (
     <Link
       href="/"
-      aria-label={locale === "ar" ? "ميكانيك — الرئيسية" : "Mechanic — Home"}
+      aria-label={locale === "ar" ? "أفيرو — الرئيسية" : "Avero — Home"}
       className={cn("group inline-flex items-center gap-3", className)}
     >
       <span
@@ -44,7 +44,7 @@ export function Logo({ className, compact = false, inverted = false }: LogoProps
               locale === "ar" && "font-arabic",
             )}
           >
-            {locale === "ar" ? "ميكانيك" : "Mechanic"}
+            {locale === "ar" ? "أفيرو" : "Avero"}
           </span>
           <span
             className={cn(

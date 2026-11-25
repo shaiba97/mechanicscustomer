@@ -225,7 +225,7 @@ export default function HomePage() {
               <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card shadow-soft">
                 <div className="flex items-center justify-between border-b border-border px-5 py-3">
                   <span className="font-mono text-[9px] tracking-[0.2em] text-muted-foreground">
-                    MECHANIC / FITMENT ENGINE
+                    AVERO / FITMENT ENGINE
                   </span>
                   <span className="flex items-center gap-1.5 text-[9px] font-medium tracking-wide">
                     <span className="size-1.5 rounded-full bg-foreground" />

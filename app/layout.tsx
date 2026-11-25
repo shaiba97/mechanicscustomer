@@ -27,12 +27,12 @@ const plexArabic = IBM_Plex_Sans_Arabic({
 
 export const metadata: Metadata = {
   title: {
-    default: "ميكانيك | Mechanic — قطع غيار السيارات في السعودية",
-    template: "%s | ميكانيك",
+    default: "أفيرو | Avero — قطع غيار السيارات في السعودية",
+    template: "%s | أفيرو",
   },
   description:
     "سوق قطع غيار السيارات في المملكة العربية السعودية. ابحث بالهيكل أو الماركة، قارن التوافق والسعر، واطلب من متاجر موثقة. The Saudi automotive parts marketplace.",
-  applicationName: "Mechanic",
+  applicationName: "Avero",
   keywords: [
     "قطع غيار",
     "قطع سيارات",
